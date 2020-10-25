@@ -1,0 +1,17 @@
+Please consult the config file for instructions on how to configure this script.  
+
+Please consult the gs_stats.php file for instructions on how to configure the gs_stats.php file.  Detailed instructions are included within each of those files.  
+
+
+To show the block on your xoops site, you will need to login to the admin side, go to your blocks administration, and create a new php block
+
+Add this code to that block
+
+
+include(XOOPS_ROOT_PATH."/modules/server_info/gs_stats.php");
+
+Give your block a title, and save.  Then make this block available to whatever groups you want.
+
+Have fun and be sure to check out our site!
+
+Widowmaker~
